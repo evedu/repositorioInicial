@@ -37,6 +37,8 @@
 			<fileset dir="web" includes="**/**" />
 		</copy>
 		
+		
+		
 	
 		<delete file="build/unicsul/WEB-INF/lib/j2ee.jar" />
 		<delete file="build/unicsul/WEB-INF/lib/controlePrincipal.jar" />
