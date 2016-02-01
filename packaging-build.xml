@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="CopiarParaDeploy" name="unicsul">
+
+	<property file="build.properties"/>	
+	<property name="project" value="${ant.project.name}" />
+	
+	<target name="deploy" depends="build">
+		<jar destfile="${project}.war">	
+			<fileset dir="build/unicsul" includes="**/**" />			
+		</jar>		
+		<delete dir="build" />
+	</target>	
+	
+	<target name="compile" description="Compliando classes" >
+		<javac srcdir="${src.dir}" destdir="${bin.dir}">
+	  		<classpath>
+	  			<fileset dir="${lib.dir}">
+	  				<include name="*.jar"/>
+	  			</fileset>  			
+	  		</classpath>
+  		</javac>
+	</target>	
+	
+	<target name="build" description="unicsul" depends="compile">	
+		<mkdir dir="build"/>
+		<mkdir dir="build/unicsul"/>	
+				
+		<copy todir="build/unicsul/WEB-INF">
+			<fileset dir="WEB-INF" includes="**/**" />
+		</copy>
+		
+		<copy todir="build/unicsul/src">
+			<fileset dir="src" includes="**/**" />
+		</copy>
+		
+		<copy todir="build/unicsul/web">
+			<fileset dir="web" includes="**/**" />
+		</copy>
+		
+	
+		<delete file="build/unicsul/WEB-INF/lib/j2ee.jar" />
+		<delete file="build/unicsul/WEB-INF/lib/controlePrincipal.jar" />
+	</target>
+	
+	<target name="CopiarParaDeploy" depends="deploy">
+		<copy file="${project}.war" todir="${build.toDeploy}" />
+	</target>		
+</project>

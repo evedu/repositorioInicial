@@ -1,0 +1,648 @@
+------ Formatos utilizados para diferentes partes das páginas -------------------{  }
+table{
+	cellpadding:0;
+	cellspacing:0;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+}
+
+.style3 {
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #E1E1E1;
+	color: #333333;
+}
+.style15 {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #2A70BF;
+	}
+	
+.style19 {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #E1E1E1;
+	}
+.style16 {
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #333333;
+	height: 28px;
+	background-color: #CCCCCC;
+}	
+
+body {
+  margin:0px;
+  font-size: 10px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  scrollbar-face-color:#ffffff;
+    scrollbar-highlight-color:#9C9C9C;
+    scrollbar-3dlight-color:#ffffff;
+    scrollbar-darkshadow-color:#ffffff;
+    scrollbar-shadow-color:#9C9C9C;
+    scrollbar-arrow-color:#9C9C9C;
+    scrollbar-track-color:#ffffff; 
+}
+corpotexto {
+  margin:1px;
+  font-size: 14px;
+  font-family: Verdana, Helvetica;
+}
+.style2 {
+	font-size: 11px;
+	font-weight: bold;
+}
+.style4 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+	}
+.style5 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #003399;
+	font-size: 16px;
+	font-weight: bold;
+}
+.style11 {font-family: Geneva, Arial, Helvetica, sans-serif; color: #FFFFFF; font-weight: bold; font-size: 12px; }
+.style12 {font-family: Geneva, Arial, Helvetica, sans-serif; color: #FFFFFF; font-weight: bold; font-size: 12; }
+.style13 {
+	color: #666666;
+	font-size: 12;
+}
+
+.style17 {
+	color: #333333;
+	font-size: 12;
+}
+
+
+p.SmallText {
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+
+p.SmallTextPreenche {
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+
+p.Locator {
+  background-color: #1C3379;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFCC00;
+}
+
+
+p.MediumText {
+  font-family: Verdana, Helvetica;
+  font-size: 12px;
+  color: #000000;
+}
+
+p.LargeText {
+  font-family: Verdana, Helvetica;
+  font-size: 14px;
+  color: #000000;
+}
+
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0000FF;
+}
+
+------------------------------{  }
+
+td.Menu {
+  background-color: #0000FF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+td.Menu:visited {
+  background-color: #0000FF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+--------------
+
+a.Menu {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+a.Menu:visited {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+
+td.Titulo {
+  background-image: url('images/itemCenter.gif');
+  background-repeat: repeat-x;
+  background-position: left center;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Verdana, Helvetica;
+}
+
+td.TituloVert {
+  background-image: url('images/itemCenter02.jpg');
+  background-repeat: repeat-y repeat-y;
+  background-position: left center;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Verdana, Helvetica;
+}
+
+td.SmallTextPreenche{
+  background-repeat: repeat-x;
+  background-position: left center;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Verdana, Helvetica
+}
+
+td.DegradativamenteA {
+  background-image: url('images/degradar0.gif');
+  background-position: left top;
+  background-repeat: repeat-x;
+  border: 1px solid #ffffff;
+}
+
+td.DegradativamenteB {
+  background-image: url('images/degradar0.gif');
+  background-position: left top;
+  background-repeat: repeat-x;
+  border: 1px solid #ffffff;
+  font-family: Verdana, Helvetica;
+  font-size: 10px
+}
+
+td.DegradativamenteC {
+  background-image: url('images/degradar6.gif');
+  background-position: left top;
+  background-repeat: repeat-x;
+  border: 1px solid #ffffff;
+}
+
+td.DegradativamenteD {
+  background-image: url('images/degradar6.gif');
+  background-position: left top;
+  background-repeat: repeat-x;
+  border: 1px solid #ffffff;
+  font-family: Verdana, Helvetica;
+  font-size: 10px
+}
+
+td.TextoBlanco {
+  background-color: #ffffff;
+  border: 1px solid #99ACFF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px
+}
+
+td.TextoGris {
+  background-color: #ffffff;
+  border: 1px solid #DDDDDD;
+  font-family: Verdana, Helvetica;
+  font-size: 10px
+}
+
+ ----------------------------------------{  }
+a.MediumSize {
+  color: #000000;
+  font-size: 10px;
+  font-family: Verdana, Helvetica;
+}
+
+a.MediumSize:visited {
+  color: #000000;
+}
+
+
+td.ModuleTitle {
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Tahoma, Helvetica;
+  background-image: url('../images/ModuleTitleBackground.gif');
+  background-repeat: repeat-x;
+  background-position: left center;
+  border: 1px solid #ffcc00;
+}
+
+td.ModuleTitleRefs {
+  font-family: Tahoma, Helvetica;
+  font-size: 8pt;
+  color: #000000;
+}
+
+p.ModuleTitle {
+  margin-left: 5px;
+  font-family: Tahoma, Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+}
+
+a.ModuleTitle {
+  font-family: Tahoma, Helvetica;
+  font-size: 8pt;
+  color: #000000;
+}
+
+a.ModuleTitle:visited {
+  color: #000000;
+}
+
+-----------------  Barra de menu principal ---------------{  }
+
+p.MenuOption {
+  font-family: Tahoma, Helvetica;
+  font-size: 8pt;
+  color: #222222;
+  background-color: #0942A1;
+  margin-bottom: 5px;
+}
+
+p.MenuOption:visited {
+  font-family: Tahoma, Helvetica;
+  font-size: 8pt;
+  color: #000000;
+  background-color: #0942A1;
+  margin-bottom: 5px;
+}
+
+a.MenuOption {
+  color: #FFFFFF;
+  background-color: #0942A1;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  font-weight:bold;
+}
+
+a.MenuOption:visited {
+  color: #FFFFFF;
+  background-color: #0942A1;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  font-weight:bold;
+}
+
+a.ApplicationItem {
+  font-family: Tahoma, Helvetica;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+td.MenuOption {
+  background-color: #0942A1;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+td.MenuOption:visited {
+  background-color: #0942A1;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+tr.MenuOption {
+  background-color: #0942A1;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+tr.MenuOption:visited {
+  background-color: #0942A1;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+table.MenuOption {
+  background-color: #0942A1;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+table.MenuOption:visited {
+  background-color: #0942A1;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+
+
+-----------------  Barra de menu de consultas ---------------{  }
+
+p.MenuOption2 {
+  font-family: Tahoma, Helvetica;
+  font-size: 8pt;
+  color: #0942A1;
+  background-color: #2A70BF;
+  margin-bottom: 5px;
+}
+
+p.MenuOption2:visited {
+  font-family: Tahoma, Helvetica;
+  font-size: 8pt;
+  color: #0942A1;
+  background-color: #2A70BF;
+  margin-bottom: 5px;
+}
+
+a.MenuOption2 {
+  color: #FFFFFF;
+  background-color: #2A70BF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  font-weight:bold;
+}
+
+a.MenuOption2:visited {
+  color: #FFFFFF;
+  background-color: #2A70BF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  font-weight:bold;
+}
+
+td.MenuOption2 {
+  background-color: #2A70BF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+td.MenuOption2:visited {
+  background-color: #2A70BF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+tr.MenuOption2 {
+  background-color: #2A70BF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+tr.MenuOption2:visited {
+  background-color: #2A70BF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+table.MenuOption2 {
+  background-color: #2A70BF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+table.MenuOption2:visited {
+  background-color: #2A70BF;
+  font-family: Verdana, Helvetica;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+
+-----------------------------{  }
+form {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+input.SmallText{
+  font-family: Tahoma,Helvetica;
+  font-size: 12px;
+  width: 75px;
+}
+
+input.SmallTextPreenche{
+  font-family: Tahoma,Helvetica;
+  font-size: 12px;
+  width: 75px;
+}
+
+input.MediumText {
+  font-family: Tahoma, Helvetica;
+  font-size: 12px;
+  width: 150px;
+}
+
+input.MediumTextBig {
+  font-family: Tahoma, Helvetica;
+  font-size: 12px;
+  width: 220px;
+}
+
+input.LargeText {
+  font-family: Tahoma, Helvetica;
+  font-size: 12px;
+  width: 300px;
+}
+
+input.VerySmallButton {
+  position: relative;
+  width: 50px;
+  font-family: Tahoma, Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+
+input.SmallButton {
+  position: relative;
+  width: 75px;
+  font-family: Tahoma, Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+
+input.MediumButton {
+  position: relative;
+  width: 150px;
+  font-family: Tahoma, Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+
+input.LargeButton {
+  position: relative;
+  width: 300px;
+  font-family: Tahoma, Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+
+input.MaximumButton {
+  position: relative;
+  width: 250px;
+  font-family: Tahoma, Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+
+input.MediumSize {
+  position: relative;
+  width: 140px;
+  font-family: Tahoma, Helvetica;
+  font-size: 12px;
+  color: #000000;
+}
+
+input.MaximumSize {
+  position: relative;
+  width: 300px;
+  font-family: Tahoma, Helvetica;
+  font-size: 12px;
+  color: #000000;
+}
+
+
+textarea.LargeArea {
+  font-family: Tahoma, Helvetica;
+  position: relative; 
+  font-size: 12px;
+  width: 300px
+}
+
+textarea.LargeText {
+  font-family: Tahoma, Helvetica;
+  position: relative; 
+  font-size: 12px;
+  width: 300px
+}
+
+hr.Grey {
+  size: 0px;
+  color: "#E0E0E0";
+}
+
+------------------------{  }
+
+a.PortalMenuTop {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+a.PortalMenuTop:visited {
+  color: #FFFFFF;
+}
+
+
+td.MenuItemOn {
+  background-color: #E6E6E6;
+  border: 1px solid #94B6F7;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Tahoma, Helvetica;
+  color: #000000;
+  font-size: 10px
+}
+
+td.MenuItemOff {
+  background-color: #ffffff;
+  border: 1px solid #94B6F7;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Tahoma, Helvetica;
+  color: #000000;
+  font-size: 10px
+}
+
+td.FieldTitle {
+  font-family: Tahoma, Helvetica;
+  font-size: 10px;
+  color: #000000;
+  text-align: right;
+}
+
+td.FieldInput {
+  font-family: Tahoma, Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+
+-----------------------------------{  }
+
+a.Link {
+  color: #0000FF;
+  font-size: 10px;
+  text-decoration: none;
+}
+-----------------------------------{  }
+tr.MenuProcurar {
+  background-color: #2A70BF;
+  color: #FFFFFF;
+}
+
+td.MenuMuda1 {
+	background-color: #99ACFF;
+}
+td.MenuMuda2 {
+	background-color: #FFFFFF;
+}
+tr.MenuMuda1 {
+	background-color: #99ACFF;
+}
+tr.MenuMuda2 {
+	background-color: #FFFFFF;
+}
+.campo {
+	border: 1px solid #2A70BF;
+}
+input.botao  {
+	color: #FFFFFF;
+	background-color: #2A70BF;
+	border: 1px solid #000000;
+	font-weight: bold;
+}
+input.botao2 {
+	color: #FFFFFF;
+	background-color: #D2E8FF;
+	border: 1px solid #FFFFFF;
+}
+.ItemCad {
+	background-color: #ECF5FF;
+}
+.ItemCad2 {
+
+	background-color: #D2E8FF;
+}
